@@ -1,0 +1,16 @@
+{
+  "name": "qa-e2e-agentic-team-code",
+  "version": "1.0.0",
+  "description": "A virtual QA organization powered by Claude Code. An AI team of 4 agents handles web UI end-to-end testing using Playwright — from analysis through design, scripting, execution, and reporting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.58.2"
+  }
+}

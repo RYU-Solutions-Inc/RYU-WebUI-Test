@@ -1,0 +1,29 @@
+{
+  "name": "ryu-webui-testing",
+  "owner": {
+    "name": "RYU Solutions Inc."
+  },
+  "metadata": {
+    "description": "RYU Solutions agentic AI QA team for E2E web UI testing with Playwright",
+    "version": "1.0.0",
+    "pluginRoot": "."
+  },
+  "plugins": [
+    {
+      "name": "ryu-webui-testing",
+      "source": ".",
+      "description": "Agentic AI QA team for E2E web UI testing. 4 specialist agents, 13 commands, 13 skills covering the full test lifecycle: onboard, analyze, design, review, build, run, and report.",
+      "version": "1.0.0",
+      "author": {
+        "name": "RYU Solutions Inc."
+      },
+      "homepage": "https://github.com/RYU-Solutions-Inc/RYU-WebUI-Test",
+      "repository": "https://github.com/RYU-Solutions-Inc/RYU-WebUI-Test",
+      "license": "MIT",
+      "keywords": ["qa", "e2e", "playwright", "testing", "webui", "agentic"],
+      "category": "testing",
+      "tags": ["qa", "playwright", "e2e", "webui", "agentic-ai"],
+      "strict": true
+    }
+  ]
+}

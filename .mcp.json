@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "_jira_example": {
+      "type": "http",
+      "url": "https://your-instance.atlassian.net/mcp",
+      "headers": {
+        "Authorization": "Bearer ${JIRA_API_TOKEN}"
+      }
+    },
+
+    "_github_example": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}"
+      }
+    },
+
+    "_slack_example": {
+      "type": "http",
+      "url": "https://your-slack-mcp-server.example.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SLACK_BOT_TOKEN}"
+      }
+    }
+  }
+}

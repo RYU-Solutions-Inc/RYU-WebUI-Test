@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+
+# Project-specific files (user data — not committed to plugin repo)
+projects/*/
+!projects/README.md
+
+# Active project pointer (user-specific)
+.active-project
+
+# Local settings (user-specific permissions)
+.claude/settings.local.json
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

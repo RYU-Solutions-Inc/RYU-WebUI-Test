@@ -1,0 +1,12 @@
+{
+  "name": "ryu-webui-testing",
+  "description": "Agentic AI QA team for E2E web UI testing. Includes 4 specialist agents, 13 commands, and 13 skills covering the full test lifecycle: onboard, analyze, design, review, build, run, and report.",
+  "version": "1.0.0",
+  "author": {
+    "name": "RYU Solutions Inc."
+  },
+  "homepage": "https://github.com/RYU-Solutions-Inc/RYU-WebUI-Test",
+  "repository": "https://github.com/RYU-Solutions-Inc/RYU-WebUI-Test",
+  "license": "MIT",
+  "keywords": ["qa", "e2e", "playwright", "testing", "webui", "agentic"]
+}
