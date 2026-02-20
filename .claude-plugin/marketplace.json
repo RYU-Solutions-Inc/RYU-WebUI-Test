@@ -11,7 +11,11 @@
   "plugins": [
     {
       "name": "ryu-webui-testing",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "RYU-Solutions-Inc/RYU-WebUI-Test",
+        "ref": "main"
+      },
       "description": "Agentic AI QA team for E2E web UI testing. 4 specialist agents, 13 commands, 13 skills covering the full test lifecycle: onboard, analyze, design, review, build, run, and report.",
       "version": "1.0.0",
       "author": {
